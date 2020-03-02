@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ods_meta>
+	<schemes>
+		<scheme name="ProROK">
+			<types>
+				<type name="Alerts">
+					<attrs>
+						<attr name="Message" type="String"/>
+						<attr name="Object" type="Link"/>
+						<attr name="Type" type="Int"/>
+					</attrs>
+				</type>
+				<type name="Blocks">
+					<attrs>
+						<attr name="ID" type="String"/>
+						<attr name="Current" type="Bool"/>
+						<attr name="BlockNumber" type="Int"/>
+						<attr name="CreateTime" type="DateTime"/>
+					</attrs>
+				</type>
+				<type name="KeysForBlock">
+					<attrs>
+						<attr name="Hash" type="String"/>
+						<attr name="Key" type="String"/>
+						<attr name="Block" type="Link"/>
+						<attr name="Object" type="Link"/>
+						<attr name="Recived" type="Bool"/>
+					</attrs>
+				</type>
+				<type name="Objects">
+					<attrs>
+						<attr name="IP" type="String"/>
+						<attr name="Name" type="String"/>
+						<attr name="Key" type="Link"/>
+						<attr name="Type" type="Int"/>
+						<attr name="Working" type="Bool"/>
+					</attrs>
+				</type>
+			</types>
+		</scheme>        
+	</schemes>
+	<subjects>
+		<groups>
+		</groups>
+	</subjects>
+</ods_meta>

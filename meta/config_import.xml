@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><CONFIG>
+    <connection>
+	<login value="postgres"/>
+	<passwd value="1"/>
+	<programName value="ods_meta_and_data"/>
+	<serverAddr value="127.0.0.1"/>
+	<dbName value="bsps_db"/>
+	<dbEncoding value=""/>
+	<dbScheme value="public"/>
+    </connection>
+</CONFIG>
